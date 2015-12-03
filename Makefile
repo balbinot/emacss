@@ -1,5 +1,5 @@
 CPP=g++
-CFLAGS=-g -fast
+CFLAGS=-g -O3
 LM=-lm -std=c99
 
 EMACSS=emacss.cpp input.cpp info.cpp params.cpp cluster.cpp output.cpp

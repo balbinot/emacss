@@ -1,4 +1,5 @@
 #include "../emacss.h"
+#include <getopt.h>
 
 void node::input(int argc, char* argv[]){
   /*Gets conditions of N-body run - uses standard C getopt function for 
